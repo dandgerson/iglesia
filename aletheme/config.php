@@ -209,9 +209,9 @@ function aletheme_get_options() {
                         "id" => "ale_insta",
                         "std" => "",
                         "type" => "text");
-    $options[] = array( "name" => "Email",
-                        "desc" => "Your email",
-                        "id" => "ale_emailcont",
+    $options[] = array( "name" => "Youtube",
+                        "desc" => "Your youtube profile URL",
+                        "id" => "ale_yt",
                         "std" => "",
                         "type" => "text");
     $options[] = array( "name" => "Show RSS",

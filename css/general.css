@@ -560,10 +560,13 @@ html[xmlns] .slides {
 .top-header {
   height: 105px;
   background-color: #ffffff;
+  position: relative;
 }
 .top-header::after {
   content: "";
   display: block;
+  position: absolute;
+  top: 100%;
   width: 100%;
   height: 5px;
   background: url(img/bottom.png) repeat-x center center;
@@ -571,4 +574,48 @@ html[xmlns] .slides {
 .header-third {
   width: 33.3%;
   float: left;
+  line-height: 105px;
+}
+.header-third.logo-section {
+  text-align: center;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.header-third.logo-section:hover {
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  -webkit-opacity: 0.6;
+  opacity: 0.6;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.header-third.social-section {
+  text-align: right;
+  font-size: 1.5rem;
+  color: #d4dad9;
+}
+.header-third.social-section i {
+  margin-left: 32px;
+}
+.header-third.social-section a {
+  color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.header-third.social-section a:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  color: #959b9a;
 }

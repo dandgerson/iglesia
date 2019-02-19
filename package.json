@@ -1,0 +1,22 @@
+{
+  "name": "iglesia",
+  "version": "1.0.0",
+  "description": "wordpress theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandgerson/iglesia.git"
+  },
+  "author": "Dmitry G. Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandgerson/iglesia/issues"
+  },
+  "homepage": "https://github.com/dandgerson/iglesia#readme",
+  "devDependencies": {
+    "less": "^3.9.0"
+  }
+}

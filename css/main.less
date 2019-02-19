@@ -2,6 +2,28 @@
 
 /* Your Custom code here */
 
-div.example{
-  color:#fff;
+.wrapper {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+
+.top-header {
+  height: 105px;
+  background-color: #ffffff;
+
+  &::after {
+    content:"";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: url(img/bottom.png) repeat-x center center;
+  }
+}
+
+.header-third {
+  width: 33.3%;
+  float: left;
 }
